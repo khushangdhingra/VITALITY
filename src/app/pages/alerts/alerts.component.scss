@@ -1,0 +1,32 @@
+
+
+th{
+  background-color: #005AA0;
+  color :white;
+}
+
+
+tr.mat-row:nth-child(even){
+  background-color: #DFEAF3  ;
+
+}
+
+.mat-table{
+  font-family: Arial;
+
+}
+table {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-width: 500px;
+}
+th.mat-header-cell {
+  text-align: left;
+  max-width: 300px;
+  font-size: 15px;
+}
+
+.mat-cell, .mat-footer-cell {
+  font-size: 16px;
+}

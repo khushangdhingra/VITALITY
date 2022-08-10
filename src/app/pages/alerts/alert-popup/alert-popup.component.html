@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="heading">
+    <h1 class="name">{{data.clazz}} Alert</h1>
+  </div>
+  <div class="desc">
+    <p class="timing">{{data.clazz}} was spotted at time : {{data.createdAt}}</p>
+  </div>
+  <img class="img-fluid" alt="Responsive image"
+
+        [src]="'data:image/'+ (data.imageType ? data.imageType : 'png') + ';base64,'+ data.base64Image" >
+</div>
